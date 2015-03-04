@@ -26,9 +26,6 @@ sourceSets {
 
 dependencies {
     apiCompile 'commons-codec:commons-codec:1.5'
-
-	apiCompile 'com.github.stefanbirkner:system-rules:1.8.0'
-
     implCompile sourceSets.api.output
     implCompile 'commons-lang:commons-lang:2.6'
 
